@@ -14,7 +14,6 @@ install_github("Perosu1/shoesize")
 ### The shoesize function
 ```R
 shoesize(input, system_from, system_to)
-#> 7
 ```
 Systems currently supported for system_from and system_to:
 1. "EU"
