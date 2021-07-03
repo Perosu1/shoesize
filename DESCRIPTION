@@ -1,0 +1,4 @@
+Package: shoesize
+Type: Package
+Title: Simple and lightweight shoe size converter
+Version: 0.1.0
