@@ -1,5 +1,5 @@
 # shoesize
- Simple Shoe Size Converter - version 0.1.1/
+ Simple Shoe Size Converter - version 0.1.2/
  
 ### Disclaimer
 This is a very early work-in progress package and I cannot guarantee corectness of the results.
@@ -24,7 +24,6 @@ Systems currently supported for system_from and system_to:
 1. "mondo"
 
 ### Example
-Converting 
 ```R
 library(shoesize)
 shoesize(40, "EU", "UK")
@@ -35,4 +34,6 @@ This example show how to get a UK equivalent to the EU size 40.
 ### To-do
 1. Add error handling & error messages
 1. Improve the documentation
+1. Impliment more size systems
+1. Adding named arguments (in addition to positional arguments)
 1. (Aspirational) rewrite package in C for even better performance
