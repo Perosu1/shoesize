@@ -5,7 +5,7 @@
 # please do not rely on this for anything too important
 
 shoesize <- function(input, system_from, system_to) {
-  chart <- read.csv("R/chart.csv")
+  chart <- read.csv("chart.csv")
   selection <- chart[ , c(system_from, system_to)]
   result <- selection[(selection[, 1] == input), 2]
   return(result);
