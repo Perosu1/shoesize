@@ -34,5 +34,5 @@ This example show how to get a UK equivalent to the EU size 40.
 
 ### To-do
 1. Add error handling & error messages
-1. Write documentation including a help file
+1. Improve the documentation
 1. (Aspirational) rewrite package in C for even better performance
